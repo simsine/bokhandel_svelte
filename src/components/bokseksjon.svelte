@@ -11,8 +11,8 @@
       <a href="http://" target="_blank">
         <p>{bok.forfatter}</p>
       </a>
-      <!--Forsidebilde TODO-->
-      <div><a href="./boksider/"><img src={bok.forsideBilde} alt="" /></a></div>
+      <!--Forsidebilde-->
+      <div class="forsidebilde"><a href="./boksider/"><img src={bok.forsideBilde} alt="" /></a></div>
       <!--Beskrivelse-->
       <p class="description">{bok.beskrivelse}</p>
       <!--Mer info-->
@@ -52,8 +52,7 @@
     text-align: start;
   }
 
-  section article img {
+  section article .forsidebilde {
     box-shadow: 3px 5px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-    
   }
 </style>
