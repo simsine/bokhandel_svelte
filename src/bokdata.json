@@ -1,27 +1,28 @@
-{ "anbefalt" :
+{ 
+"anbefalt" :
 [
     {
         "tittel" : "Fallteknikk",
         "forfatter" : "Inga H. Sætre",
-        "forsideBilde" : "/src/media/bok1.png",
+        "forsideBilde" : "../src/media/bok1.png",
         "beskrivelse" : "En tegnet roman. Vi følger Rakel som flytter hjemmefra for å gå på videregåendeskole. En tett venninnegjeng som forsøksvis ønsker å spille i band og drive med kampsport i den alderen der verden skal oppdages."
     },
     {
         "tittel" : "MAUS - THE COMPLETE MAUS",
         "forfatter" : "Art Spiegelman",
-        "forsideBilde" : "/src/media/bok2.png",
+        "forsideBilde" : "../src/media/bok2.png",
         "beskrivelse" : "The Complete Maus by Art Spiegelman - the Pulitzer prize-winning Holocaust survivor story 'The most affecting and successful narrative ever done about the Holocaust' Wall Street Journal"
     },
     {
         "tittel" : "MORT CINDER",
         "forfatter" : "Alberto Breccia",
-        "forsideBilde" : "/src/media/bok3.png",
+        "forsideBilde" : "../src/media/bok3.png",
         "beskrivelse" : "lorem ipsum"
     },
     {
         "tittel" : "Brave New World",
         "forfatter" : "Aldous Huxley",
-        "forsideBilde" : "/src/media/bok4.jpg",
+        "forsideBilde" : "../src/media/bok4.jpg",
         "beskrivelse" : " Largely set in a futuristic World State, whose citizens are environmentally engineered into an intelligence-based social hierarchy, the novel anticipates huge scientific advancements in reproductive technology, sleep-learning, psychological manipulation and classical conditioning."
     }
 ],
@@ -31,19 +32,19 @@
     {
         "tittel" : "SUE & TAI-CHI 3",
         "forfatter" : "Forfatter",
-        "forsideBilde" : "src/media/japansk1.png",
+        "forsideBilde" : "../src/media/japan.png",
         "beskrivelse" : "Beskrivelse"
     },
     {
         "tittel" : "PRINCESS KNIGH",
         "forfatter" : "Forfatter",
-        "forsideBilde" : "src/media/japansk2.png",
+        "forsideBilde" : "../src/media/bok1.png",
         "beskrivelse" : "Beskrivelse"
     },
     {
         "tittel" : "BOMBA",
         "forfatter" : "Forfatter",
-        "forsideBilde" : "src/media/japansk3.png",
+        "forsideBilde" : "../src/media/bok1.png",
         "beskrivelse" : "Beskrivelse"
     }
 ]

@@ -1,5 +1,7 @@
 <script>
   export let bokliste;
+
+  // let filePath = "../src/media/"
 </script>
 
 <section id="section-anbefalt">
@@ -12,7 +14,7 @@
         <p>{bok.forfatter}</p>
       </a>
       <!--Forsidebilde-->
-      <div class="forsidebilde"><a href="./boksider/"><img src={bok.forsideBilde} alt="" /></a></div>
+      <a href="./boksider/"><img class="forsidebilde" src="{bok.forsideBilde}" alt=""></a>
       <!--Beskrivelse-->
       <p class="description">{bok.beskrivelse}</p>
       <!--Mer info-->
@@ -34,16 +36,15 @@
 
   @media screen and (max-width: 480px) {
     section {
-      grid-template-columns: 75%;
+      grid-template-columns: 80%;
       row-gap: 0.5rem;
     }
   }
 
   /* Cards */
   section article {
+    width: 100%;
     padding: 5px;
-    /* min-width: 250px; */
-    /* border: 1px solid black; */
     text-align: center;
   }
 
@@ -52,7 +53,11 @@
     text-align: start;
   }
 
+  section article a {
+    background-color: lightgray;
+  }
   section article .forsidebilde {
+    width: 90%;
     box-shadow: 3px 5px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
   }
 </style>
