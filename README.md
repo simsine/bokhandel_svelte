@@ -1,3 +1,3 @@
 # Bokhandel innlevering skrevet i svelte
 
-~Graphic design is *not* my passion~
+\~Graphic design is *not* my passion\~
