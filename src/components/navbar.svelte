@@ -12,14 +12,10 @@
 <svelte:body />
 
 <style>
-	:global(body) {
-		margin: 0;
-	}
-
     .logo-header{
-    display: flex;
-    align-items: center;
-    vertical-align: middle;
+        display: flex;
+        align-items: center;
+        margin: 5px;
     }
 
     nav{
