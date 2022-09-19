@@ -3,8 +3,8 @@
 </script>
 
 <!-- BODY -->
-<h2 class="section-heading">{bokliste.seksjonHeading} - {bokliste.bøker.length} utvalgte titler</h2>
 <section id="{bokliste.seksjonHeading}">
+	<h2 class="section-heading">{bokliste.seksjonHeading} - {bokliste.bøker.length} utvalgte titler</h2>
 	{#each bokliste.bøker as bok}
 	<article>
 		<!--Forsidebilde-->
@@ -25,14 +25,17 @@
 <style>
 	/* Section */
 	.section-heading {
-		margin-top: 10px;
-		margin-bottom: 10px
+		grid-column: 1/-1;
+		justify-self: left;
+		
 	}
 	section {
 		margin-top: 15px;
 		margin-bottom: 15px;
+
 		display: grid;
-		grid-template-columns: repeat(4, 20%);
+		grid-template-columns: repeat(4, 1fr);
+		/* grid-template-rows: repeat(2, auto auto); */
 		justify-items: center;
 		justify-content: space-around;
 		gap: 1rem;
@@ -43,7 +46,6 @@
 	section article {
 		display: flex;
 		flex-direction: column;
-		width: 100%;
 		padding: 15px;
 		text-align: left;
 
@@ -75,8 +77,7 @@
 	/* Media queries */
 	@media screen and (min-width: 550px) and (max-width: 900px) {
 		section {
-			grid-template-columns: repeat(3, 30%);
-			row-gap: 0.5rem;
+			grid-template-columns: repeat(3, 1fr);
 		}
 	}
 	@media screen and (max-width: 550px) {
