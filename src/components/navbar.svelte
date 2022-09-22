@@ -13,6 +13,9 @@
     //         hideNavbar = true
     //     }
     // }
+
+    //window.TV2.toggleUserMenu=function(){e.style.display=e.style.display?null:"none",c.querySelector(".navbar-auth__button").setAttribute("aria-expanded",!e.style.display)}
+
 </script>
 
 <div class="logo-header">
