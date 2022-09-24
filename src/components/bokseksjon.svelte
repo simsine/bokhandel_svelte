@@ -1,5 +1,6 @@
 <script>
 	export let bokliste;
+	let path = "./media/"
 </script>
 
 <!-- BODY -->
@@ -8,7 +9,7 @@
 	{#each bokliste.bøker as bok}
 	<article>
 		<!--Forsidebilde-->
-		<a href="."><img class="bok-forsidebilde" src="{bok.forsideBilde}" alt=""></a>
+		<a href="."><img class="bok-forsidebilde" src="{path + bok.forsideBilde}" alt=""></a>
 		<!--Tittel-->
 		<h3 class="bok-tittel">{bok.tittel}</h3>
 		<!--Forfatter-->

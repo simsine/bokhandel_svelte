@@ -1,7 +1,7 @@
 <script>
-	import Navbar from "../components/navbar.svelte"
-	import Bokseksjon from "../components/bokseksjon.svelte"
-	import bokdata from '../bokdata.json'
+	import Navbar from "./components/navbar.svelte"
+	import Bokseksjon from "./components/bokseksjon.svelte"
+	import bokdata from './bokdata.json'
 </script>
 
 <!-- BODY -->
