@@ -19,7 +19,7 @@
 </script>
 
 <div class="logo-header">
-    <img src="logo.gif" alt="Mas que papel logo" style="width: 20vw; display: inline-block;">
+    <img src="./media/logo.gif" alt="Mas que papel logo" style="width: 20vw; display: inline-block;">
     <h1 style="display:inline-block;">Bokhandel</h1>
 
     <!-- <div style="display: flex; justify-content:flex-end; width:100%; margin-right:15px;">
