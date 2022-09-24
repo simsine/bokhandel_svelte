@@ -4,6 +4,6 @@
 
 # HOW TO RUN FOR DEVELOPMENT:
 
-```cmd
+```bash
 npm run dev
 ```
