@@ -1,6 +1,6 @@
 <script>
 
-    let navOpen = false
+    let navOpen = true
 
     function toggleNavbar(){
         navOpen = !navOpen;
@@ -14,7 +14,7 @@
     <img src="./media/logo.gif" alt="Mas que papel logo" style="width: 20vw; display: inline-block;">
     <h1 style="display:inline-block;">Bokhandel</h1>
 
-    <div style="display: flex; justify-content:flex-end; width:100%; margin-right:15px;">
+    <div class="button-container">
         <button on:click="{toggleNavbar}">
             <svg viewBox="0 0 75 40" width="40" height="40">
                 <rect width="75" height="10"></rect>
@@ -42,6 +42,12 @@
         justify-content: flex-end;
     }
 
+    .button-container{
+        display: none;
+        justify-content:flex-end;
+        width:100%;
+        margin-right:15px;
+    }
     button{
         background: none;
         color: inherit;
@@ -82,16 +88,19 @@
     }
 
     /* Media queries */
-    @media screen and (min-width: 550px) and (max-width: 900px) {
+    @media screen and (min-width: 550px) and (max-width: 900px) {   /* Medium size */
 		nav {
             font-size: 75%;
 		}
 	}
-	@media screen and (max-width: 550px) {
+	@media screen and (max-width: 550px) {    /* Phone size */
 		nav {
             flex-direction: column;
 			grid-template-columns: 85%;
 			row-gap: 1rem;
 		}
+        .button-container{
+            display: flex;
+        }
 	}
 </style>
